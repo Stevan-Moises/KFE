@@ -2,8 +2,6 @@ html, body {
     scroll-behavior: smooth;
 }
 
-/*global*/
-
 .parallax1,
 .parallax2,
 .parallax3,
@@ -15,7 +13,6 @@ html, body {
     background-attachment: fixed;
 }
 
-/* topo */
 .topo {
     width: 100%;
     position: fixed;
@@ -50,9 +47,8 @@ html, body {
     border-radius: 15px;
 }
 
-/* banner */
 .parallax1 {
-    background-image: url(/image/parallax-imagem1.png);
+    background-image: url(./image/parallax-imagem1.png);
     height: 100vh;
 }
 
@@ -68,9 +64,8 @@ html, body {
     top:45%
 }
 
-/* parallax2 */
 .parallax2 {
-    background-image: url(/image/parallax-imagem2.jpg);
+    background-image: url(./image/parallax-imagem2.jpg);
     height: 50vh;
 }
 
@@ -95,15 +90,13 @@ html, body {
     letter-spacing: 2px;
 }
 
-/* parallax3*/
 .parallax3 {
-    background-image: url(/image/parallax-imagem3.jpg);
+    background-image: url(./image/parallax-imagem3.jpg);
     height: 50vh;
 }
 
-/*parallax4*/
 .parallax4 {
-    background-image: url(/image/parallax-imagem4.png);
+    background-image: url(./image/parallax-imagem4.png);
     height: 100vh;
 }
 
@@ -151,7 +144,6 @@ html, body {
     color: #fff;
 }
 
-/* efeitos de texto */
 .texto {
     padding: 80px 0px;
     font-size: 16px;
@@ -180,9 +172,8 @@ html, body {
     color: #666;
 }
 
-/* parallax */
 .parallax5 {
-    background-image: url(/image/cafeteria.jpg);
+    background-image: url(./image/cafeteria.jpg);
     height: 85vh;
 }
 
@@ -203,7 +194,7 @@ html, body {
     position: relative;
 }
 
-.lista-horarios { /* <ul*/
+.lista-horarios {
     max-width: 768px;
     position: absolute;
     margin: 0 auto;
@@ -214,16 +205,16 @@ html, body {
     list-style: none;
 }
 
-.lista-horarios li { /* li */
+.lista-horarios li { 
     position: relative;
 }
 
-.lista-horarios li h3 { /* subtitulo */
+.lista-horarios li h3 { 
     margin-bottom: 20px;
     color: #fff;
 }
 
-.lista-horarios li div { /* tarja */
+.lista-horarios li div { 
     width: 70%;
     height: 1px;
     position: absolute;
@@ -235,7 +226,7 @@ html, body {
 }
 
 .lista-horarios li p,
-.texto-marrom { /* paragrafo + span*/
+.texto-marrom {
     position: absolute;
     top: 0;
     right: 0;
@@ -275,7 +266,7 @@ html, body {
     bottom: 80px;
     right: 50px;
 
-    background-image: url(/image/seta-para-cima.png);
+    background-image: url(./image/seta-para-cima.png);
     background-position: center;
     background-size: cover;
     background-color: #c4a47c;

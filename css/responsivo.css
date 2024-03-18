@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+    html, body {
+        display: block;
+        margin: 0;
+        width: 935px;
+    }
+
+    .topo img {
+        position: relative;
+        left: 10px;
+        width: 30vw;
+    }
+
+    .topo a {
+        position: relative;
+        left: 100px;
+    }
+
+    .texto {
+        position: relative;
+        width: 200vw;
+        text-align: center;
+        left: 75px;
+    }
+
+    .parallax4 iframe {
+        position: relative;
+        left: 35px;
+        right: 0;
+        top: 23%;
+        margin: auto;
+        width: 900px;
+    }
+    
+    .parallax1 {
+    position: relative;
+    background-position: top;
+    background-size: unset;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+    .parallax1 h1 {
+        font-size: 90px;
+    }
+}
